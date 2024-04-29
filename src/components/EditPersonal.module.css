@@ -1,0 +1,55 @@
+:root {
+  --drop-down-width: 500px;
+  --drop-down-height: 40px;
+}
+
+.container {
+  display: grid;
+  row-gap: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px black;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.selectorBar {
+  background-color: var(--widgetBackground);
+  /* width: var(--drop-down-width); */
+  height: var(--drop-down-height);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: center;
+}
+
+.editClosed {
+  border-radius: 13px;
+}
+
+.editOpen {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom: 1px solid var(--widgetBorder);
+}
+
+#selectorText {
+  grid-column: 1;
+  justify-items: left;
+  display: grid;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+#selectorCaret {
+  grid-column: 2;
+  width: 40px;
+  display: grid;
+  align-items: center;
+}
+
+.editSection {
+  display: grid;
+  row-gap: 5px;
+  padding: 5px;
+}

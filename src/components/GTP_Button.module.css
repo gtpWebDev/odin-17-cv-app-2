@@ -1,0 +1,16 @@
+.templateButton {
+  place-self: center;
+  /* background-color: rgb(255, 200, 250); */
+  background-color: var(--widgetBackground);
+  color: var(--textColor);
+  border: 2px solid var(--widgetBorder);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.1s;
+}
+.templateButton:hover {
+  border-color: var(--widgetHighlightedBorder);
+}

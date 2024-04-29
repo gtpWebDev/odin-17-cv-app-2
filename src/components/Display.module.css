@@ -1,0 +1,55 @@
+:root {
+  --drop-down-width: 500px;
+  --drop-down-height: 40px;
+
+  --headerColor: rgb(255, 200, 250);
+}
+
+p {
+  margin: 10px;
+}
+h3 {
+  margin: 5px;
+}
+
+.container {
+  display: grid;
+  row-gap: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px black;
+  margin: 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.personalContainer,
+.educationContainer,
+.employmentContainer {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.personalContainer {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section h2 {
+  color: var(--headerColor);
+  margin: 10px;
+  font-size: 30px;
+  text-shadow: 3px 3px black;
+}
+
+.personalContainer h2 {
+  grid-column: 1/4;
+}
+
+.educationContainer,
+.employmentContainer {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: grid;
+}
