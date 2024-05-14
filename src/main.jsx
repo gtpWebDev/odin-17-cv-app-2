@@ -16,6 +16,7 @@ To do:
   - Display layout - needs to deal with long inputs in personal details section
   - tidy up components - first attempt was to use generalised inputs with quite
       a bit of layout structure, but may need a rethink with a bit more experience of react
+  - replace down caret with up caret when edit is opened
 
 
 */
