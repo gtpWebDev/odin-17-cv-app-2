@@ -8,6 +8,7 @@ import EditPersonal from "./components/EditPersonal.jsx";
 import EditEducation from "./components/EditEducation.jsx";
 import EditEmployment from "./components/EditEmployment.jsx";
 import Display from "./components/Display.jsx";
+import Header from "./components/Header.jsx";
 
 function App() {
   // manage state of whole cv here
@@ -45,7 +46,7 @@ function App() {
 
   return (
     <>
-      <header>CV Application</header>
+      <Header />
       <Sidebar
         personalDetails={personalDetails}
         cbfn_updatePersonal={cbfn_updatePersonal}

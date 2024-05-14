@@ -1,0 +1,11 @@
+.header {
+  display: grid;
+  place-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px black;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: 800;
+  background-color: rgb(255, 200, 250);
+}
